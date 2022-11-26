@@ -39,7 +39,7 @@ jobs:
         uses: docker://alpine:3.8
         
       - name: My Docker Action Type Registry Step
-        uses: qeesung/docker-action-demo@master
+        uses: qeesung/docker-action-demo@v1.0.0
         with: 
           who-to-greet: 'qeeeeeeeeeeeeeeesung'
         
