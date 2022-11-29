@@ -37,11 +37,6 @@ jobs:
         
       - name: My Docker Type Registry Step
         uses: docker://alpine:3.8
-
-      - name: My Docker Action Type Registry Step
-        uses: qeesung/docker-action-demo@v1.0.0
-        with: 
-          who-to-greet: 'qeeeeeeeeeeeeeeesung'
       - name: My Composite Action Type Registry Step
         uses: qeesung/composite-action-demo@v1.0.5
         with: 
