@@ -43,7 +43,7 @@ jobs:
         with: 
           who-to-greet: 'qeeeeeeeeeeeeeeesung'
       - name: My Composite Action Type Registry Step
-        uses: qeesung/composite-action-demo@v1.0.4
+        uses: qeesung/composite-action-demo@v1.0.5
         with: 
           who-to-greet: 'xuanzhouuuuuuuuuuu'
         
