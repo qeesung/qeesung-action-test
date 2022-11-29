@@ -42,6 +42,10 @@ jobs:
         uses: qeesung/docker-action-demo@v1.0.0
         with: 
           who-to-greet: 'qeeeeeeeeeeeeeeesung'
+      - name: My Composite Action Type Registry Step
+        uses: qeesung/composite-action-demo@v1.0.3
+        with: 
+          who-to-greet: 'xuanzhouuuuuuuuuuu'
         
       - name: Sleep
         run: sleep 10
