@@ -36,7 +36,7 @@ jobs:
         run: echo Hello, world! && node --version
         
       - name: install tree tool
-        run: sudo apt update && sudo apt-get install tree
+        run: apt update && apt install tree
       
       - name: list the tree
         run: tree && cd .. && tree && cd .. && tree
