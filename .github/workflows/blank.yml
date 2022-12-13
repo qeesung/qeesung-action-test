@@ -20,7 +20,7 @@ jobs:
     # The type of runner that the job will run on
     runs-on: self-hosted
     container:
-      image: ubuntu:14.04
+      image: centos:5
       env:
         NODE_ENV: development
       ports:
