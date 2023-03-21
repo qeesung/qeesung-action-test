@@ -41,5 +41,4 @@ jobs:
           echo test3, and deploy your project.
           echo test4, and deploy your project.
           echo test5, and deploy your project.
-
-        shell: cmd
+        shell: powershell
