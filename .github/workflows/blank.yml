@@ -35,7 +35,11 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
+          echo test, and deploy your project.
+          echo test, and deploy your project.
           xxx, yyy
           echo test, and deploy your project.
-          echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY
+          echo test, and deploy your project.
+          echo test, and deploy your project.
+
         shell: cmd
