@@ -35,11 +35,11 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
-          echo test, and deploy your project.
+          echo test1, and deploy your project.
+          echo test2, and deploy your project.
           xxx, yyy
-          echo test, and deploy your project.
-          echo test, and deploy your project.
-          echo test, and deploy your project.
+          echo test3, and deploy your project.
+          echo test4, and deploy your project.
+          echo test5, and deploy your project.
 
         shell: cmd
