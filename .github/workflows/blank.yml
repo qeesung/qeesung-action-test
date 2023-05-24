@@ -27,11 +27,7 @@ jobs:
         run: |
           echo Add other actions to build
           git status
-          Test-Path -LiteralPath variable:\LASTEXITCODE
-          echo $?
-          Test-Path -LiteralPath variable:\LASTEXITCODE
-          echo Hello World
-          Test-Path -LiteralPath variable:\LASTEXITCODE
+          echo Hello World after git status
         shell: powershell
 
       # Runs a set of commands using the runners shell
